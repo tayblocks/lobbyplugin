@@ -1,0 +1,13 @@
+name: LobbyPlugin
+version: '${project.version}'
+main: de.tayblocks.lobbyplugin.LobbyPlugin
+api-version: 1.19
+permissions:
+  system.setspawn:
+    default: op
+
+commands:
+  spawn:
+    aliases: ["setspawn"]
+
+  lobby:
